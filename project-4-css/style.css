@@ -1,14 +1,11 @@
-body
-
-	{margin:0px;       
-
+body{
+	margin:0px;
 	padding:0px;
-
 }
-.fixed{
 
-	background-image:url("bg.jpg"); 
-	background-size:100%
+.fixed{
+	background-image:url("bg.jpg");
+	background-size:100% 100%;
 }
 
 .header{
@@ -18,74 +15,121 @@ body
 	border:1px solid;
 	padding:5px;
 }
+
 ul{
 	list-style:none;
 	margin:0px;
 	text-align:right;
-	}
+	color: #f0f;
+}
+
 ul li{
 	display:inline-block;
-	margin-right:25px; 
-}
-.home{
-	background:#080;
-	float:left;
+	margin-right:25px;
 	padding:7px;
 }
+
+.home{
+	background:yellow;
+	float:left;
+	/* padding:7px; */
+	text-decoration: underline;
+	color: #f0f;
+}
+
 a{
 	text-decoration:none;
-	color:#fff;
+	color:#0f0;
 	text-transform:capitalize;
-
+	background-color: yellow;
+	padding: 7px;
 }
-a:hover {background:#bbaaff;
 
-
+a:hover {
+	background:#f00;
+	font-weight: bold;
+	color: #000;
 }
-.basic{padding:75px;
+
+a:active {
+	color: yellow;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.basic{
+	padding:75px;
 	background: #fff;
 	text-align:center;
 	text-transform:capitalize;
 }
-.mmm{border:2px solid green;
-padding:7px;
-display:inline-block;
-color:#ddd;
-width:300px;
-height:300px;
-line-height:2px;
-margin-top:10px; }
-img{width:190px;
-height:170px;}
+
+.mmm{
+	border:3px solid red;
+	padding:7px;
+	display:inline-block;
+	color:#333;
+	width:300px;
+	height:300px;
+	line-height:2px;
+	margin-top:10px;
+}
+
+img{
+	width:190px;
+	height:170px;
+}
+
 .mmm:hover img{
 	width:200px;
-	height:177px; 
+	height:177px;
 }
+
 .mm{
 	display:none;
 }
-.mmm:hover .mm{display:block;}
-.control{padding:170px;}
+.mmm:hover .mm{
+	display:block;
+}
+
+.control{
+	padding:180px;
+}
+
 .fa{
 	background:#bbaaff;
 	color:#fff;
 	text-transform:uppercase;
 	padding: 15px;
 }
-.footer
-{padding:150px;
+
+.footer{
+	/* padding:100px; */
 }
+
 .end{
-padding:130px;
-background-image:url("none.jpg");
-background-size:100%;
+	/* padding: 1000px; */
+	padding:100px 10px;
+	background-image:url("none.jpg");
+	width:100%;
+	/* width: 100px;
+	height: 170px; */
+	/* margin: 100px; */
+	margin: 100px 0;
+	background-size:100% 100%;
 }
-.p1
-{background: rgba(50,30,70,0.2);
-padding:20px;
-margin-bottom:7px;
-direction:rtl}
+
+.p1{
+	background: rgba(212,212,2300,0.5);
+	padding: 10px;
+	margin: 40px;
+	direction: rtl;
+	direction:rtl
+}
+
 .p2{
-	background:rgba(50,100,70,0.2);
+	background:rgba(182,236,13,0.52);
+	margin: 40px;
+	margin-bottom: 80px;
 	padding:10px;
 }
