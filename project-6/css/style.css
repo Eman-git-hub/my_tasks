@@ -1,0 +1,144 @@
+  body {
+    margin:0px;       
+    padding:0px;
+  }
+  .icon-bar{
+    width: 100%; /* Set a specific width */
+    list-style: none;
+    margin:0px;
+    background-color: #555; /* Dark-grey background */
+    float:right;
+    border:1px;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+  }
+  .icon-bar a {
+    display:inline-block;  /* Make the links appear below each other instead of side-by-side */
+    text-align: right; /* Center-align text */
+    padding: 15px; /* Add some padding */
+    color: white; /* White text color */
+    text-decoration: none;
+  }
+  .icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+  }
+  ul{
+    list-style:none;
+    margin:0px;
+    text-align:right;
+    color:#f0f;
+  }
+  ul li{
+    display:inline-block;
+    margin-right:25px; 
+  }
+ .icon-bar .home{
+    background:green;
+    float:left;
+    text-decoration: none;
+    text-transform:capitalize;
+    color:#f0f;
+  }
+  /* Style the links inside the sidenav */
+  #mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    position:fixed;
+    z-index: 1; /*make it above in another element in the same place*/
+  }
+
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  /* The about link: 20px from the top with a green background */
+  #about {
+    top: 60px;
+    background-color: #4CAF50;
+    position:fixed;
+  }
+  #blog {
+    top: 120px;
+    background-color: #2196F3; /* Blue */
+    position:fixed;
+  }
+  #projects {
+    top: 180px;
+    background-color: #f44336; /* Red */
+    position:fixed;
+  }
+  #contact {
+    top: 240px;
+    background-color: #555 ;/* Light Black */
+    position:fixed;
+  }
+
+  /* margin class added to make margin */
+  .mt{
+    margin-top: 60px;    /*make margin top to any element added in*/
+  }
+  .mr{
+    margin-right: 60px;  /*make margin top to any element added in*/
+  }
+  .ml{
+    margin-left: 60px;   /*make margin top to any element added in*/
+  }
+  .mb{
+    margin-bottom: 60px; /*make margin top to any element added in*/
+  }
+  /* margin class added to make margin */
+
+  h1{
+    margin-left:35px;
+    margin-top:20px;
+  }
+  .positioning{
+    top: 30px;
+    left: 10px;
+    font-family:"thoma";
+    margin: 50px;
+  }
+  dt {
+    background-color:black;
+    color: red;
+    padding: 10px;
+    position: sticky;
+    top: 48px;
+    left: 30px;
+    margin-left:40px;
+  }
+  dd{
+    padding:15px;
+    margin-left:50px;
+  }
+  
+  /* hover height and after content */
+  .hover-height{
+    padding: 60px;
+    background: no-repeat center/100% 100% url("../images/a.jpg");
+  }
+  .hover-height p{
+    background: rgba(125, 125, 200,.5) ;
+    padding: 20px;
+  }
+  /* hover height and after content */
+
+  /* selctors app */
+  .selctors-ins{
+    padding: 60px;
+    background: no-repeat center/100% 100% url("../images/m.jpg");
+  }
+  .selctors-ins div{
+
+  }
+  .selctors-ins div p{
+
+  }
+  /* selctors app */
