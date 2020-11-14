@@ -182,7 +182,8 @@ body>section:nth-child(5) {
 
 .cont {
   background: rgba(0, 125, 31, 0.493);
-  padding: 30px
+  padding: 30px ;
+  color: wheat;
 }
 
 summary {
