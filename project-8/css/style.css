@@ -24,7 +24,7 @@ div{
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: black;
   text-align: center;
@@ -44,7 +44,7 @@ div{
 }
 
 .topnav .search-container {
-  float: right;
+  float: left;
 }
 
 .topnav input[type=search] {
@@ -154,7 +154,7 @@ div{
 }
 
 .relations{
-  background: no-repeat center/100% 100% fixed url(../images/1828458.jpg);
+  background: no-repeat center/cover fixed url(../images/allah.jpg);
   /* background: bg-color bg-image position/bg-size bg-repeat bg-origin bg-clip bg-attachment initial|inherit; */
   margin: 30px 0;
 }
@@ -203,7 +203,7 @@ video{
 }
 
 .Pseudo {
-  background: no-repeat center/100% 100% fixed url(../images/pop-bg.jpg);
+  background: no-repeat center/cover fixed url(../images/reloj.jpg);
   /* padding: 50px; */
   margin: 50px 0;
 }
@@ -276,7 +276,7 @@ footer{
   border-top-left-radius: 50% ;
   border-bottom-right-radius: 50% ;
   color: #ccc;
-  background:  linear-gradient(to right ,rgb(146, 10, 10), rgb(6, 6, 153)) ;
+  background:  linear-gradient(45deg ,rgb(0, 0, 0), rgb(157, 157, 157) , rgb(90, 82, 82)) ;
   padding: 10px;
   outline: none;
 }
@@ -284,10 +284,10 @@ footer{
 .f-read{
   padding: 20px;
   background: rgba(200, 200, 200, 0.5) ;
-  box-shadow: 5px 5px 20px 5px rgba(255, 0, 0, 0.5) ,
-              -5px -5px 30px 5px rgba(0, 0, 255, 0.5);
-  text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5) ,
-              -5px -5px 10px rgba(0, 0, 255, 0.5);          
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0) ,
+              -5px -5px 30px 5px rgba(202, 202, 202, 0.5);
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5) ,
+              -5px -5px 10px rgba(255, 255, 255, 0.5);          
 }
 
 .Pseudo .overley{
@@ -317,7 +317,8 @@ footer{
 .fan img {
   width: 100px;
   transition: 2.5s ease-in-out;
-
+  border-radius: 50%;
+  background: linear-gradient(45deg, black, transparent);
 }
 
 .fan img:hover {
@@ -342,5 +343,5 @@ footer{
 }
 
 .itachi:hover img{
-  transform: translatex(300px) scale3d(1.5,1.5,1.5);
+  transform: translatex(-300px) scale3d(1.5,1.5,1.5);
 }
